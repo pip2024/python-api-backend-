@@ -8,3 +8,6 @@ Docs:
 - Swagger UI: http://localhost:8000/docs
 - ReDoc: http://localhost:8000/redoc
 - OpenAPI JSON: http://localhost:8000/openapi.json
+
+docker build -t python-api-backend .
+docker run -p 8000:8000 python-api-backend
